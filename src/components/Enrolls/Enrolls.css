@@ -15,3 +15,9 @@
 .enrolls > h2 > span {
   color: #626262;
 }
+
+@media only screen and (max-width: 1000px) {
+  .enrolls >div{
+    flex-direction: column;
+  }
+}

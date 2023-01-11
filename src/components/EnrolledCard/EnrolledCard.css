@@ -37,3 +37,9 @@
   font-weight: 600;
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 1000px) {
+  .enrolled-card {
+    width: 100%;
+  }
+}

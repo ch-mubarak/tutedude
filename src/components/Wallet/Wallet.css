@@ -9,3 +9,15 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+.wallet > p {
+  font-weight: 600;
+}
+.wallet > h4 {
+  color: #800080;
+}
+
+@media only screen and (max-width: 1000px) {
+  .wallet > h4 {
+    font-size: 14px;
+  }
+}
