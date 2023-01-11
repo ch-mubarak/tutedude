@@ -1,7 +1,9 @@
 import React from "react";
+import BigReferralCode from "../../components/BigReferralCode/BigReferralCode";
 import BreadCrump from "../../components/BreadCrump/BreadCrump";
 import Earning from "../../components/Earning/Earning";
-import ReferralCode from "../../components/ReferralCode/ReferralCode";
+import HowDoesItWork from "../../components/HowDoesItWork/HowDoesItWork";
+import TermsAndConditions from "../../components/TermsAndConditions/TermsAndConditions";
 import "./ReferAndEarn.css";
 
 const ReferAndEarn = () => {
@@ -10,8 +12,10 @@ const ReferAndEarn = () => {
       <BreadCrump />
       <section>
         <Earning />
-        <ReferralCode />
+        <BigReferralCode />
       </section>
+      <HowDoesItWork />
+      <TermsAndConditions />
     </div>
   );
 };

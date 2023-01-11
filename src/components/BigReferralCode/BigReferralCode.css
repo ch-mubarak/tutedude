@@ -1,0 +1,26 @@
+.big-referral-code {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+}
+
+.big-referral-code > h3 {
+  color: #800080;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.big-referral-code > div {
+  padding: 1rem;
+  font-weight: 500;
+  border: 2px solid;
+  border-image: linear-gradient(270deg, #800080 0%, #ff864c 100%) 1;
+}
+.big-referral-code > div > p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.2rem;
+  color: #800080;
+  font-weight: 500;
+  letter-spacing: 1.5rem;
+}

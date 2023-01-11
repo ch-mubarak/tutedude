@@ -1,0 +1,22 @@
+.instruction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.instruction > div:first-child {
+  padding: 1rem;
+  border-radius: 50%;
+  background: rgba(217, 217, 217, 0.25);
+}
+
+.instruction > div > h5 {
+  font-size: 1rem;
+}
+
+.instruction > div > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4d4d4d;
+}
