@@ -1,10 +1,10 @@
 import "./App.css";
-import ReferAndEarn from "./pages/ReferAndEarn/ReferAndEarn";
-
+import FriendsReferred from "./pages/FriendsReferred/FriendsReferred";
 function App() {
   return (
     <div className="App">
-      <ReferAndEarn />
+      {/* <ReferAndEarn /> */}
+      <FriendsReferred />
     </div>
   );
 }

@@ -10,7 +10,7 @@ const EnrolledCard = ({ data }) => {
         <p>{data?.date}</p>
       </div>
       <p>
-        Coursed Enrolled<span>{data?.courses?.length}</span>
+        Coursed Enrolled<span>({data?.courses?.length})</span>
       </p>
       <div className="enrolled-courses">
         {data?.courses.map((item, index) => {
