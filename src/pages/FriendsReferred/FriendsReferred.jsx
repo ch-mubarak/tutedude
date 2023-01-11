@@ -9,7 +9,7 @@ import TermsAndConditions from "../../components/TermsAndConditions/TermsAndCond
 
 const FriendsReferred = () => {
   return (
-    <div className="refer-and-earn">
+    <div className="friends-referred">
       <NavBar />
       <main>
         <BreadCrump />
