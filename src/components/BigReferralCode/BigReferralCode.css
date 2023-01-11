@@ -11,8 +11,7 @@
 }
 
 .big-referral-code > div {
-  font-weight: 500;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-image: linear-gradient(to right, #800080 0%, #ff864c 100%);
   box-sizing: border-box;
   padding: 4px;
@@ -23,7 +22,7 @@
   align-items: center;
   padding: 1rem;
   background: #ffffff;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   display: flex;
   justify-content: center;
   height: 100%;
