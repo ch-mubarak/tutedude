@@ -1,5 +1,5 @@
 import React from "react";
-import "./BigReferralCode.css"
+import "./BigReferralCode.css";
 
 const BigReferralCode = () => {
   return (
