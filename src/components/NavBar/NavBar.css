@@ -11,14 +11,21 @@
   gap: 1.5rem;
 }
 
-.nav-bar > ul >li{
+.nav-bar > ul > li {
   color: #80008040;
   font-size: 18px;
   cursor: pointer;
 }
 
-.nav-bar >ul>li:last-child{
+.nav-bar > ul > li:last-child {
   color: #800080;
+}
+
+.nav-bar > ul > li > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
 }
 .nav-bar > img {
   width: 10rem;

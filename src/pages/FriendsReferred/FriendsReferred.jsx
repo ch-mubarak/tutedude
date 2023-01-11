@@ -10,16 +10,13 @@ import TermsAndConditions from "../../components/TermsAndConditions/TermsAndCond
 const FriendsReferred = () => {
   return (
     <div className="friends-referred">
-      <NavBar />
-      <main>
-        <BreadCrump />
-        <section>
-          <ReferralCode />
-          <Wallet />
-        </section>
-        <Enrolls />
-        <TermsAndConditions />
-      </main>
+      <BreadCrump />
+      <section>
+        <ReferralCode />
+        <Wallet />
+      </section>
+      <Enrolls />
+      <TermsAndConditions />
     </div>
   );
 };
