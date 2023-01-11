@@ -4,6 +4,7 @@ import React from "react";
 import { ReactSVG } from "react-svg";
 import user from "../../svg/user.svg";
 import dropdown from "../../svg/dropdown.svg";
+import dropdownWhite from "../../svg/dropdownWhite.svg";
 
 const NavBar = () => {
   return (
@@ -20,6 +21,10 @@ const NavBar = () => {
           </div>
         </li>
       </ul>
+      <div className="navbar-dropdown">
+        <span>ProfileName</span>
+        <ReactSVG src={dropdownWhite} />
+      </div>
     </div>
   );
 };

@@ -5,3 +5,10 @@
   grid-auto-flow: column; /* arrange items in columns*/
   grid-gap: 1.5rem /* gap between cells */
 }
+
+@media only screen and (max-width: 1000px) {
+    .how-does-it-work{
+        display: flex;
+        flex-direction: column;
+    }
+}

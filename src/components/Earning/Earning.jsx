@@ -17,8 +17,8 @@ const Earning = () => {
           <h4>Wallet Balance</h4>
           <p>₹ 500</p>
         </div>
+        <button className="button">Withdraw Balance</button>
       </div>
-      <button className="button">Withdraw Balance</button>
     </div>
   );
 };

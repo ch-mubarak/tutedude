@@ -8,9 +8,16 @@
 
 .refer-and-earn > section {
   display: flex;
+  gap:1.5rem;
   justify-content: space-between;
 }
 
 .refer-and-earn > div > a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .refer-and-earn > section {
+    flex-direction: column;
+  }
 }
