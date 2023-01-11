@@ -5,6 +5,10 @@
   overflow: auto;
 }
 
+.enrolls > div::-webkit-scrollbar {
+  display: none;
+}
+
 .enrolls > h2 {
   color: #800080;
   font-weight: 600;
@@ -17,7 +21,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .enrolls >div{
+  .enrolls > div {
     flex-direction: column;
   }
 }

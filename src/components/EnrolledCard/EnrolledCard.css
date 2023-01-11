@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 1rem;
   height: 20rem;
-  width: 35rem;
+  min-width: 25rem;
 }
 
 .enrolled-card-top {
@@ -19,6 +19,7 @@
 .enrolled-courses {
   display: flex;
   gap: 0.6rem;
+  align-items: center;
   flex-wrap: wrap;
   overflow: auto;
   height: 38%;

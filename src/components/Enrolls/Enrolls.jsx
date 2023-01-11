@@ -6,7 +6,7 @@ const Enrolls = () => {
   return (
     <div className="enrolls">
       <h2>
-        Friends who enrolled<span>(3)</span>
+        Friends who enrolled<span>({referrals.length})</span>
       </h2>
       <div>
         {referrals.map((item) => {
