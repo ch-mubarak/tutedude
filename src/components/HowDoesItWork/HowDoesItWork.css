@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
   grid-template-rows: repeat(3, auto); /* 3 rows with variable height */
-  grid-auto-flow: column; /* arrange items in columns*/
   grid-gap: 1.5rem /* gap between cells */
 }
 

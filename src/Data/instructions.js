@@ -12,27 +12,27 @@ const instructions = [
   },
   {
     id: "22",
-    title: "You get ₹ 200 as referral money",
-    desc: "On total purchase the friend makes, into your wallet",
-    icon: rupees,
-  },
-  {
-    id: "33",
-    title: "Transfer money from wallet",
-    desc: "When the wallet balance reaches ₹200 or more, you can withdraw it",
-    icon: wallet,
-  },
-  {
-    id: "44",
     title: "Friend purchases any course",
     desc: "Using your REFERRAL CODE in the payments page",
     icon: coupon,
   },
   {
-    id: "55",
+    id: "33",
+    title: "You get ₹ 200 as referral money",
+    desc: "On total purchase the friend makes, into your wallet",
+    icon: rupees,
+  },
+  {
+    id: "44",
     title: "Your Friend gets ₹ 200 Off ",
     desc: "On his overall fee on successful purchase using your referral code ",
     icon: discount,
+  },
+  {
+    id: "55",
+    title: "Transfer money from wallet",
+    desc: "When the wallet balance reaches ₹200 or more, you can withdraw it",
+    icon: wallet,
   },
 ];
 
