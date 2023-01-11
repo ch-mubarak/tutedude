@@ -18,7 +18,7 @@ const EnrolledCard = ({ data }) => {
         })}
       </div>
       <p className="referral-amount">
-        Referral Amount <span>${data?.referral}</span>
+        Referral Amount <span>₹{data?.referral}</span>
       </p>
     </div>
   );

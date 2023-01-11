@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <ReferAndEarn />
-      <FriendsReferred />
+      {/* <FriendsReferred /> */}
     </div>
   );
 }
