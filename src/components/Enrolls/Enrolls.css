@@ -1,0 +1,16 @@
+.enrolls > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.enrolls > h2 {
+  color: #800080;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.enrolls > h2 > span {
+  color: #626262;
+}

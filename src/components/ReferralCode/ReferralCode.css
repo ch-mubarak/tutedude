@@ -1,0 +1,19 @@
+.referral-code {
+  text-align: center;
+}
+
+.referral-code > h3 {
+  color: #800080;
+  font-size: 1rem;
+}
+
+.referral-code > div {
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  border: 2px solid #d1cfcf;
+}
+.referral-code > div > p {
+  line-height: 24px;
+  font-size: 1rem;
+  letter-spacing: 0.75rem;
+}
