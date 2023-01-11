@@ -1,3 +1,4 @@
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import FriendsReferred from "./pages/FriendsReferred/FriendsReferred";
@@ -6,8 +7,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ReferAndEarn />
-      {/* <FriendsReferred /> */}
+      <Routes>
+        <Route path="/refer" element={<ReferAndEarn />} />
+        <Route path="/refer/refer-friends" element={<FriendsReferred />} />
+        <Route path="*" element={<Navigate to="/refer" />} />
+      </Routes>
     </div>
   );
 }

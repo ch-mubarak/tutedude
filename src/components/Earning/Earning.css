@@ -4,8 +4,8 @@
   background: #ffffff;
   box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  padding: 1rem;
-  gap: 2rem;
+  padding: 2rem;
+  gap: 1rem;
 }
 
 .earning > div {
@@ -29,8 +29,9 @@
   background: #800080;
   border-radius: 20px;
   border: none;
-  width: 50%;
+  font-weight: 500;
   padding: 0.5rem 1rem;
   align-self: center;
   color: #fff;
+  cursor: pointer;
 }

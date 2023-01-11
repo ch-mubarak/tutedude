@@ -1,5 +1,11 @@
 .wallet {
   padding: 1rem;
+  transition: all ease-in-out 0.2s;
   border-radius: 1.3rem;
   box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+}
+
+.wallet:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }

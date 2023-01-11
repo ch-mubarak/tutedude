@@ -5,7 +5,9 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
+  height: 20rem;
+  width: 35rem;
 }
 
 .enrolled-card-top {
@@ -18,9 +20,20 @@
   display: flex;
   gap: 0.6rem;
   flex-wrap: wrap;
+  overflow: auto;
+  height: 38%;
+  margin-bottom: 1rem;
 }
 
-.referral-amount>span{
-    font-weight: 600;
-    font-size: 1.5rem;
+.enrolled-courses::-webkit-scrollbar {
+  width: 8px;
+}
+
+.enrolled-courses::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #eeaeae;
+}
+.referral-amount > span {
+  font-weight: 600;
+  font-size: 1.5rem;
 }

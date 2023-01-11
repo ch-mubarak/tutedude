@@ -13,7 +13,7 @@
 .big-referral-code > div {
   padding: 1rem;
   font-weight: 500;
-  border: 2px solid;
+  border: 3px solid;
   border-image: linear-gradient(270deg, #800080 0%, #ff864c 100%) 1;
 }
 .big-referral-code > div > p {

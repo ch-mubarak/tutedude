@@ -29,4 +29,5 @@
 }
 .nav-bar > img {
   width: 10rem;
+  cursor: pointer;
 }

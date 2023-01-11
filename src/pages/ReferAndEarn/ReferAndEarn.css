@@ -10,3 +10,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.refer-and-earn > div > a {
+  text-decoration: none;
+}
